@@ -22,7 +22,7 @@ import multiprocessing
 pd.options.display.max_columns = 5
 pd.options.display.max_rows = 10000000
 
-data = pd.read_csv('csv files/credit_data.csv')
+data = pd.read_csv('credit_data.csv')
 
 def gender(var):
     if var == 'Male':
